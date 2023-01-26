@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    margin: .5rem;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.screen {
+    margin-right: 13px;
+    width: 251px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.previous {
+    font-size: 1.5rem;
+}
+.current {
+    font-size: 2rem;
+}
+.number {
+    border: 2px solid palevioletred;
+}
+.number:hover{
+    background-color: rgb(252, 166, 194);
+}
+.operator {
+    border: 2px solid blueviolet;   
+}
+.operator:hover {
+    background-color: rgb(167, 103, 226);
+}
+.decimal {
+    border: 2px solid palegreen;
+}
+.decimal:hover{
+    background-color: rgb(198, 255, 198);
+}
+.clear {
+    border: 2px solid plum;
+}
+.clear:hover {
+    background-color: rgb(241, 198, 241);
+}
+.delete {
+    border: 2px solid brown;
+}
+.delete:hover {
+    background-color: rgb(204, 85, 85);
+}
+.equal:hover {
+    background-color: rgb(48, 44, 44);
+}
